@@ -5,7 +5,7 @@
     Author URI:https://www.i13websolution.com/
     Description: This is beautiful responsive thumbnail image slider plugin for WordPress.Add any number of images from admin panel.
     Author:I Thirteen Web Solution
-    Version:1.1.12
+    Version:1.1.13
     Text Domain:wp-responsive-thumbnail-slider
     Domain Path: /languages
     */
@@ -1275,6 +1275,7 @@ function responsive_thumbnail_slider_admin_options(){
                                                         validExtensions[1]='jpeg';
                                                         validExtensions[2]='png';
                                                         validExtensions[3]='gif';
+                                                        validExtensions[3]='webp';
 
 
                                                         var inarr=parseInt(jQuery.inArray( attachment.subtype, validExtensions));
@@ -1720,6 +1721,7 @@ function responsive_thumbnail_slider_admin_options(){
                                             validExtensions[1]='jpeg';
                                             validExtensions[2]='png';
                                             validExtensions[3]='gif';
+                                            validExtensions[3]='webp';
                                             
                                                         
                                             var inarr=parseInt(jQuery.inArray( attachment.subtype, validExtensions));
