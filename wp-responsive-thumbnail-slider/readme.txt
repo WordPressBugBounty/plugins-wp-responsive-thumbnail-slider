@@ -3,7 +3,7 @@ Contributors:nik00726
 Donate link: http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:wordpress responsive slideshow,responsive thumbnail gallery,wordpress responsive slider carousel,wordpress gallery responsive,wordpress fluid slider,wordpress fluid thumbnails slider,wordpress responsive image slider
 Requires at least:3.5
-Tested up to:6.8
+Tested up to:6.9
 Version:1.1.14
 Stable tag:1.1.14
 License: GPLv2 or later

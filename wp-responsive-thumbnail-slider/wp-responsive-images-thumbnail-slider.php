@@ -1,6 +1,6 @@
 <?php
    /* 
-    Plugin Name: WordPress Responsive Thumbnail Carousel Slider
+    Plugin Name: Responsive Thumbnail Carousel Slider
     Plugin URI:https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/
     Author URI:https://www.i13websolution.com/
     Description: This is beautiful responsive thumbnail image slider plugin for WordPress.Add any number of images from admin panel.
