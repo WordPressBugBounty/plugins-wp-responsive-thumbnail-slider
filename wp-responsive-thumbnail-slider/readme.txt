@@ -1,114 +1,82 @@
-=== Thumbnail carousel slider ===
-Contributors:nik00726
-Donate link: http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
-Tags:wordpress responsive slideshow,responsive thumbnail gallery,wordpress responsive slider carousel,wordpress gallery responsive,wordpress fluid slider,wordpress fluid thumbnails slider,wordpress responsive image slider
-Requires at least:3.5
-Tested up to:6.9
-Version:1.1.14
-Stable tag:1.1.14
+=== Responsive Thumbnail Slider ===
+Contributors: nik00726
+Donate link: https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/
+Tags: responsive slider, thumbnail slider, thumbnail carousel, image slider, gutenberg block
+Requires at least: 3.5
+Tested up to: 7.0
+Version: 1.1.54
+Stable tag: 1.1.54
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+A fast, lightweight responsive thumbnail slider for WordPress — modern animation engine, lightbox, captions, and full theme/builder compatibility. Free forever.
+
 == Description ==
 
-This is a beautiful responsive thumbnail slider for WordPress sites. Admin can manage any number of images into the responsive thumbnail slider.Admin can add, edit and delete slider images. Before add slider, to WordPress blog, admin can preview a slider. Admin can set height, the width of slider images. Admin can also set speed, Number of visible images into the slider, Circular slider. Admin can also set if want to slide images with up and down arrow or by the automatic slider.
+**Responsive Thumbnail Slider** lets you build a clean, responsive image slider and drop it anywhere on your site — no coding required. It's built to be lightweight and fast by default, with a modern rendering engine that doesn't even require jQuery on the front end.
 
+**[Live Demo](http://blog.i13websolution.com/live-preview-responsive-thumbnail-slider-pro/)**
 
-**Find WordPress Responsive Image Slider Pro Plugin(Unlimited Slider+Mass Images Uploads+Much More) at [WordPress Responsive Thumbnail Slider](https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/)**
+= Two rendering engines =
 
-**[Live Demo Responsive Thumbnail Slider Pro](http://blog.i13websolution.com/live-preview-responsive-thumbnail-slider-pro/)**
+* **Modern** — a lightweight, dependency-free engine (no jQuery required for the slider itself), touch/swipe-friendly, with lazy-loaded images
+* **Legacy** — the original engine, kept for sites that want it exactly as-is
+* Existing sites automatically stay on Legacy after updating, so nothing changes on your live site — new installs default to Modern
 
+= Everything you need for a great-looking slider =
 
-**Please rate this plugin if you find it useful**
+* Add any number of images to your slider
+* Set image height and width, slider speed, and how many images are visible at once
+* Circular (looping) slider, or arrow-only navigation
+* Auto-slide, or manual control with left/right arrows
+* Optional pager dots and image captions
+* Optional **lightbox** — clicking a slide opens the full image in a clean overlay
+* Preview your slider before publishing it
+* Image name doubles as the alt tag for SEO
+* Responsive admin layout and WordPress capability support
+* No advertisements
 
+= Simple to add anywhere =
 
-**WordPress Responsive Thumbnail carousel slider Video**
+Use the shortcode `[print_responsive_thumbnail_slider]` in any page, post, or widget — or use it directly in a theme template with `do_shortcode()`. Full Gutenberg block editor support is built in.
 
-[youtube https://www.youtube.com/watch?v=k90P1C5fszU]
+= Need more than one slider? =
 
+The free version gives you **one** slider — great for a single homepage banner or gallery. If you need more, **[Responsive Thumbnail Slider PRO](https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/)** unlocks:
 
+* **Unlimited sliders** — a completely different, independent slider for every page
+* **16 real easing animation curves**, including true Bounce and Elastic motion
+* **Bulk image upload**, drag-to-reorder, or random image order
+* **Per-slider styling** — border color, radius, box-shadow, crop / no-crop modes
+* **Per-image custom links, link targets, and captions**
+* **Native Elementor widget and Divi module**, both with live builder previews
+* **Full Gutenberg block editor control** — create and edit sliders, and pick images from the Media Library, without leaving the block sidebar
+* **Per-slider analytics dashboard** — impressions, clicks, and click-through rate, with a 30-day graph (aggregate-only, no visitor tracking)
 
-**=Features=**
+**[See Responsive Thumbnail Slider PRO →](https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/)**
 
-1. Add any number of images to responsive slider.
-
-2. Edit images and image name.
-
-3. Image name is used as alt tag for seo.
-
-4. Preview your slider before use it.
-
-5. Slider installation into theme is simple just add shortcode 
-to theme or pages/posts.
-
-6. changes to images height,width
-
-7. Changes to slider speed is easy.
-
-8. Admin can set slider as slide with arrow left and right arrow.
-
-9. Admin can set slider as circular slider.
-
-10. Responsive admin layout.
-
-11. WordPress capabilities feature.
-
-
-**=Pro Version Features=**
-
-1. Unlimited Slider(Multiple sliders).
-
-2. Mass Images Upload.
-
-3. Upload image using media uploader.
-
-4. Mass image order updates.
-
-5. Slider Easing Effects(select your desired slider easing effect from 16 easing effect).
-
-6. No advertisements.
-
-7. If image description set it will added to image title tag for seo.
-
-8. Support order by image order or random images.
-
-9. Open image link in new tab or same tab.
-
-10. Display slider with paging.
-
-11. Display slider image with caption.
-
-12. Responsive admin layout.
-
-13. WordPress capabilities feature.
-
-
-[Get Support](http://www.i13websolution.com/contacts)
-
+[Get Support](https://www.i13websolution.com/contacts)
 
 == Installation ==
 
+1. Upload the plugin folder to `wp-content/plugins/`, or install it directly from the WordPress plugin directory.
+2. Activate the plugin from the Plugins screen in your WordPress admin.
+3. Go to **Responsive Thumbnail Slider** in the admin menu to configure your slider and add images.
 
-This plugin is easy to install like other plug-ins of Wordpress as you need to just follow the below mentioned steps:
+= Usage =
 
-1. upload wp-responsive-image-slider folder to wp-Content/plugins folder.
+1. Manage your images from the **Manage Images** menu.
+2. Configure slider behavior from the **Slider Settings** menu.
+3. Preview your slider anytime from the **Preview Slider** menu before publishing it.
+4. Add it to a page or post with the shortcode:
 
-2. Activate the plugin from Dashboard / Plugins window.
+`[print_responsive_thumbnail_slider]`
 
-4. Now Plugin is Activated, Go to the Usage section to see how to use wordpress image slider.
+Or in a theme template:
 
-### Usage ###
+`<?php echo do_shortcode('[print_responsive_thumbnail_slider]'); ?>`
 
-1.Use of wordpress responsive slider is easy after activating plugin go to Responsive Imaages Slider.
-
-2.You can manage images by Manage images menu.
-
-3.You can set settings for this plugin using slider settings menu.
-
-4.You can add this slider to your wordpress page/post by adding this shortcode to [print_responsive_thumbnail_slider] 
-
-OR you can add this to your theme by adding this code echo do_shortcode('[print_responsive_thumbnail_slider]'); to your theme
-
+Need more than one slider on your site? **[Upgrade to PRO](https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/)** for unlimited independent sliders.
 
 == Screenshots ==
 
@@ -130,6 +98,206 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 
 
 == Changelog ==
+
+
+= 1.1.54 =
+
+* Fixed: square/disc bullet markers could show next to slides on some themes, on both engines. The Modern engine's list-style reset had no !important, so a theme with equally-specific or more aggressive list styling could override it (a fix we'd already applied to the Divi-specific stylesheet but never to the base CSS). The Legacy engine's stylesheet was missing a list-style reset entirely, relying only on bxSlider's own JS to suppress bullets, which can fail against certain themes.
+
+
+= 1.1.48 =
+
+* Fixed: Lightbox showed a caption even when "Show caption" was turned off. The lightbox caption now only appears when Show caption is enabled, matching the slider itself.
+
+
+= 1.1.47 =
+
+* Fixed: Lightbox didn't work on the admin Preview page — its assets were only registered on the front end, so enqueuing them on the admin page silently did nothing (same class of bug fixed earlier for the modern engine's editor CSS). Now also registered for admin context.
+
+
+= 1.1.46 =
+
+* Added 50px top padding to the Pro upgrade box's sidebar on the Settings, Manage Images, and Add Image pages
+
+
+= 1.1.45 =
+
+* Reverted the previous change — Pro upgrade box moved back to the original ad location (bottom sidebar), since placing it beside the Stats box created an awkward gap before the settings form. Stats box now stands alone at the top again.
+
+
+= 1.1.44 =
+
+* Moved the Pro upgrade box on the Settings page to sit directly beside the Slider Stats box (flex row at the top of the page), instead of appearing separately at the bottom of the page in the sidebar — removed the now-duplicate copy from the bottom sidebar
+
+
+= 1.1.43 =
+
+* Removed remaining third-party affiliate ad banners (Elegant Themes/Divi, Google Workspace coupon) from the Settings, Manage Images, and Add Image admin sidebars
+* Replaced them with a proper Pro upsell box in the same native sidebar location, and consolidated the earlier top-of-page Pro box into this one spot per page to avoid showing it twice
+
+
+= 1.1.42 =
+
+* Removed the old Facebook "Like" banner, PayPal donate banner, and plain-text "Upgrade to Pro" links from the Settings, Manage Images, and Add Image admin pages
+* Added a proper Pro upsell sidebar box (Settings and Manage Images pages), listing the key Pro features with a clear call-to-action button
+
+
+= 1.1.41 =
+
+* New: Lightbox toggle (Slider Settings > Lightbox) — clicking a slide opens the full image in an overlay instead of following "Add link to image". Works on both Modern and Legacy engines, and the admin Preview page.
+* New: Slider Stats box on the Settings page — aggregate-only impressions/clicks/click-through-rate, all-time and last 7 days. No visitor tracking, no cookies, no identifying data — just daily totals, tracked via IntersectionObserver (impressions) and sendBeacon (clicks).
+
+
+= 1.1.40 =
+
+* Fixed: with a Scroll amount greater than 1, the "previous" arrow could jump straight past all valid content in a single move and try to render a DOM position with no clone at all — a bigger problem than a late boundary trigger, since there's zero cushion below the very first cloned slide. Index is now clamped to the actual clone-buffer extent before ever rendering, regardless of scroll step size, so it's impossible to attempt showing a position that doesn't exist.
+
+
+= 1.1.39 =
+
+* Fixed: left/"previous" arrow specifically still misbehaved after the last fix — the backward loop-boundary triggered one step too late (index < lower instead of index <= lower), so it briefly tried to animate toward a DOM position where no cloned slide exists at all (not just late — genuinely invalid), unlike the forward direction, whose boundary happens to trigger exactly at the edge of valid content. Backward now triggers at the same point, mirroring forward exactly.
+
+
+= 1.1.38 =
+
+* Fixed: an arrow click right after the slider completed a loop (wrapped from last slide back to first, or vice versa) could jump instantly instead of animating. The loop-reset itself is an intentional instant jump (to make the loop seamless) — but if the very next animated move happened too soon afterward, the browser could coalesce both style writes together and never actually paint the "before" state, so the transition had nothing visible to animate from. Now forces a reflow before every animated move, guaranteeing the prior state is painted first.
+
+
+= 1.1.37 =
+
+* Fixed: the "previous" arrow specifically (not "next") could get stuck/stop responding, particularly with more images than visible slots. The backward loop-boundary was calculated as cloneCount-realCount, which goes deeply negative whenever you have more real images than visible slides — letting backward navigation travel into DOM positions where no cloned slide actually exists. The boundary is now a fixed 0, matching where the actual clone buffer starts.
+
+
+= 1.1.36 =
+
+* Fixed: clicking a pager dot could sometimes update the dot's active state but leave the slider itself in place — pager clicks didn't cancel a still-pending loop-reset from a recent arrow/autoplay move, so that stale reset could fire moments later and silently snap the slider back, overriding the pager's navigation. Pager clicks now cancel any pending reset immediately.
+
+
+= 1.1.35 =
+
+* Fixed: Modern engine's left/right arrows (and autoplay) could permanently stop responding after a window resize/reflow happened to coincide with the slider crossing its loop boundary — the loop-reset relied solely on the browser's transitionend event, and a single missed event left navigation silently blocked forever. Added a timeout fallback so the reset always completes even if that event is missed.
+
+
+= 1.1.34 =
+
+* New: friendly, dismissible review request — shown to new installs after 7 days of use, and as a one-time "thanks for updating" prompt to existing sites after upgrading to a new version
+* Shown only to admins (manage_options), only on the Plugins page and this plugin's own admin pages, with "Remind me later" (snoozes 14 days) and "No thanks" (permanent opt-out) options
+* Dismissals persist immediately via AJAX rather than just hiding client-side
+
+
+= 1.1.33 =
+
+* Fixed: Legacy engine arrows, pager dots, and captions weren't showing properly under Divi — the previous Divi fix only reinforced borders/margins on these elements, not the actual positioning and background-image sprite that make them visible in the first place. Arrows are image sprites with hidden text, so a stripped background-image makes them invisible rather than obviously broken. Reinforced full positioning, sizing, and the sprite background for arrows/pager, and position/background/text styling for captions.
+
+
+= 1.1.32 =
+
+* Fixed: Legacy engine rendered as a plain stacked list under Divi instead of a horizontal carousel, with no console errors — bxSlider sets its horizontal layout (float:left on each slide) via plain inline style at init, and Divi's own !important list/float resets were overriding that after the fact. Reinforced float/list-style/overflow/position on the wrapper, viewport, and slide items to match bxSlider's own specificity, without touching the JS-controlled margin, width, or position values (which differ per Fade vs horizontal mode and per your settings)
+
+
+= 1.1.31 =
+
+* Fixed: Divi fix stylesheet was missing a rule for the Modern engine's caption — added, in case Divi's own span/text styling was overriding its position/background and making it invisible under Divi
+
+
+= 1.1.30 =
+
+* New: Divi CSS specificity fix (css/rts-divi-fix.css), same pattern used in our other Divi integrations — reinforces the slider's list/image/arrow/pager/caption styling against Divi's own high-specificity theme CSS
+* Auto-loads whenever Divi (theme or Builder plugin) is detected; enqueued both proactively on page load and explicitly inside the Divi module's render(), with the wp_footer fallback as a final safety net
+* No effect on sites without Divi
+
+
+= 1.1.29 =
+
+* Fixed: Divi module still broke the Visual Builder settings panel — switched vb_support to 'off' (matching our other Divi modules) and added the required get_settings_modal_toggles() definition, which the VB's settings panel expects even for modules with no configurable fields
+* Added a wp_footer fallback that reprints any of the plugin's styles/scripts that page builders enqueued too late for wp_head, matching the safety-net pattern used in our other plugins' Divi integrations
+
+
+= 1.1.28 =
+
+* Fixed: Divi module broke the Visual Builder's settings panel (showing a fragment of Divi's own JS bundle instead of the module content) — caused by an unsupported 'warning' field type on the module's only custom field; removed it since the module needs no configurable fields (settings live on the plugin's Slider Settings page, same as the Elementor widget)
+
+
+= 1.1.27 =
+
+* Fixed: placeholder card in Elementor/Divi showed as unstyled plain text — the CSS was being enqueued inside the widget's render() call, which is too late since both builders add widgets to the canvas via an AJAX call that returns an HTML fragment with no <head>. The card CSS is now enqueued early (during the normal page-load pass that builds the preview), before any widget gets added.
+* Fixed: placeholder icon wasn't showing — dashicons (the icon font) isn't loaded on front-end pages by default, and Elementor/Divi's canvas is technically a front-end page; now enqueued alongside the card CSS
+
+
+= 1.1.26 =
+
+* Changed: Elementor and Divi builder canvases now show the same settings-summary placeholder card as the Gutenberg block editor (icon, engine/visible/image-count badges, autoplay/circular status, Pro upsell) instead of the live slider while editing
+* Live slider still renders normally in Elementor's Preview mode, Divi's non-Visual-Builder view, and on the actual frontend
+* Refactored the placeholder data/markup into shared functions reused by all three integrations
+
+
+= 1.1.25 =
+
+* Fixed: block could be inserted but not selected, moved, or removed — the editor preview wasn't wrapped with useBlockProps(), which API v2 blocks require for the editor to recognize the element as the block itself
+
+
+= 1.1.24 =
+
+* New: Elementor widget ("Responsive Thumbnail Slider") — drag it into any Elementor layout; renders using your current slider settings and engine
+* New: Divi module ("Responsive Thumbnail Slider") — available in the Divi Builder module list; renders the same way
+* Both integrations only load when the respective page builder is active — no effect on sites without Elementor/Divi installed
+
+
+= 1.1.23 =
+
+* Changed: Gutenberg block editor preview now shows a settings-summary placeholder card (engine, visible count, auto slide, circular loop, image count) instead of a live server-rendered preview — matches the block style used across our other plugins and avoids editor-context styling quirks
+* Placeholder reflects whichever engine (Modern or Legacy) is currently active
+
+
+= 1.1.22 =
+
+* New: Gutenberg block ("Responsive Thumbnail Slider") — insert the slider from the block inserter instead of using the shortcode manually, with a live preview right in the editor
+* Block preview automatically loads whichever engine (Modern or Legacy) is currently selected in Slider Settings
+
+
+= 1.1.21 =
+
+* Fixed: Modern engine's "Visible" setting wasn't constraining the widget's own width, so a wider parent column could reveal a partial extra slide (e.g. "3 visible" showing ~4.5 images) — the widget now sizes itself to exactly that many slides, matching the Legacy engine
+
+
+= 1.1.20 =
+
+* Fixed: Modern engine's caption bar squared off the bottom of the rounded thumbnail corners since it had no rounding of its own — corner rounding now lives on the slide container so the caption (and anything else) is clipped to match
+
+
+= 1.1.19 =
+
+* Fixed: Modern engine was stretching thumbnails to fill the available container width instead of honoring the configured Image Width/Height setting — it now renders slides at a fixed size like the Legacy engine, and only adjusts how many are visible based on container width
+
+
+= 1.1.18 =
+
+* Fixed: Slider Engine radio buttons on the settings page rendered oversized (missing the standard sizing style used elsewhere on the page)
+* Fixed: Modern engine autoplay loop reset used a guessed timeout instead of waiting for the actual CSS transition to finish, which could cause the transition to restart mid-animation and look stuck/jerky — now uses the transitionend event
+* Fixed: the cloned slides used for seamless looping could be inserted in the wrong order
+* Added a menu icon for the plugin's admin menu entry
+
+
+= 1.1.17 =
+
+* Fixed: Modern engine was double-counting slide spacing (width % + margin-right), causing the track to overflow the viewport and reveal a sliver of the next slide on the right edge
+* Modern engine now uses exact pixel widths with a single CSS gap for spacing between slides
+* Fixed: fade mode (single visible slide) could still compute more than one slide's worth of width on wide screens
+
+
+= 1.1.16 =
+
+* New: Modern slider engine (Settings > Slider Engine) — a lightweight, dependency-free replacement for bxSlider with smoother touch/swipe, lazy-loaded images, and no jQuery requirement on the front end
+* Existing sites automatically stay on the original Legacy (bxSlider) engine after updating — nothing changes on your live site unless you opt in
+* New installs default to the Modern engine
+* Slider Preview page now previews whichever engine is selected
+
+
+= 1.1.15 =
+
+* Security hardening: all database queries now use $wpdb->prepare() with parameterized values instead of direct string interpolation
+* Fixed a gap in the mass-image-upload handler where the image title was not fully sanitized before being saved
+* Sorting (order by) is now restricted to a fixed whitelist of columns to prevent unexpected input from reaching the query
 
 
 = 1.1.14 =
@@ -322,6 +490,26 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 
 == Frequently asked questions ==
 
-1.How to use ?
+= How many sliders can I create with the free version? =
 
-For More info use readme installation and usage notes.
+One. It's a great fit for a single homepage banner, gallery, or logo strip. If you need multiple independent sliders across your site, [Responsive Thumbnail Slider PRO](https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/) supports unlimited sliders.
+
+= What's the difference between the Modern and Legacy engine? =
+
+Modern is a lighter, dependency-free engine (no jQuery required for the slider itself), touch/swipe-friendly with lazy-loaded images. Legacy is the original engine, kept for sites that rely on its exact current behavior. Existing sites stay on Legacy automatically after updating — nothing changes on your live site unless you switch it yourself in Slider Settings.
+
+= Will updating break my existing slider? =
+
+No. Your slider keeps its current engine and all current settings after an update — nothing changes on your live site unless you explicitly change a setting yourself.
+
+= How do I add the slider to a page? =
+
+Use the shortcode `[print_responsive_thumbnail_slider]` in any page, post, or widget, or add it directly to a theme template with `do_shortcode()`. Gutenberg block editor support is also built in.
+
+= Does the lightbox work with captions? =
+
+Yes — when Show Caption is enabled, the caption also appears in the lightbox overlay when a slide is clicked.
+
+= I need more control — border styling, per-image links, analytics, page builder support... =
+
+That's what [Responsive Thumbnail Slider PRO](https://www.i13websolution.com/product/wordpress-responsive-thumbnail-html-slider-pro/) is for — see the Description tab above for the full feature list.
