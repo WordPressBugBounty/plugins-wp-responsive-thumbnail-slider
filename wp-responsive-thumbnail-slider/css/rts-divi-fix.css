@@ -1,0 +1,219 @@
+/**
+ * Divi CSS specificity fix.
+ *
+ * Divi's own theme stylesheet uses long, deeply-nested selector chains
+ * (e.g. ".et-db #et-boc .et-l ...") for its list/image resets, which beat
+ * this plugin's simple class-based rules. These re-assert the slider's
+ * own styling with matching (or higher) specificity. Only enqueued when
+ * Divi is detected — see rts_register_divi_module() / the Divi module's
+ * render() method.
+ */
+
+/* ---------- Modern engine ---------- */
+
+.et_pb_module .rts-modern-track,
+.et-db #et-boc .et-l .rts-modern-track {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: flex !important;
+}
+
+.et_pb_module .rts-modern-slide,
+.et-db #et-boc .et-l .rts-modern-slide {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border-radius: 5px !important;
+	overflow: hidden !important;
+	box-sizing: border-box !important;
+	position: relative !important;
+}
+
+.et_pb_module .rts-modern-slide img,
+.et-db #et-boc .et-l .rts-modern-slide img {
+	display: block !important;
+	width: 100% !important;
+	max-width: 100% !important;
+	height: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+}
+
+.et_pb_module .rts-modern-arrow,
+.et-db #et-boc .et-l .rts-modern-arrow {
+	border-radius: 50% !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	background: rgba( 0, 0, 0, 0.5 ) !important;
+	color: #fff !important;
+}
+
+.et_pb_module .rts-modern-dot,
+.et-db #et-boc .et-l .rts-modern-dot {
+	border-radius: 50% !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	margin: 0 6px !important;
+}
+
+.et_pb_module .rts-modern-pager,
+.et-db #et-boc .et-l .rts-modern-pager {
+	list-style: none !important;
+	margin: 10px 0 0 !important;
+	padding: 0 !important;
+}
+
+.et_pb_module .rts-modern-caption,
+.et-db #et-boc .et-l .rts-modern-caption {
+	display: block !important;
+	position: absolute !important;
+	left: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	margin: 0 !important;
+	padding: 6px 8px !important;
+	background: rgba( 0, 0, 0, 0.6 ) !important;
+	color: #fff !important;
+	font-size: 12px !important;
+	line-height: 1.3 !important;
+}
+
+/* ---------- Legacy (bxSlider) engine ---------- */
+
+.et_pb_module .bx-wrapper,
+.et-db #et-boc .et-l .bx-wrapper {
+	position: relative !important;
+}
+
+.et_pb_module .bx-wrapper .bx-viewport,
+.et-db #et-boc .et-l .bx-wrapper .bx-viewport {
+	overflow: hidden !important;
+	position: relative !important;
+	width: 100% !important;
+}
+
+.et_pb_module .bx-wrapper .bx-viewport ul,
+.et-db #et-boc .et-l .bx-wrapper .bx-viewport ul,
+.et_pb_module .responsiveSlider,
+.et-db #et-boc .et-l .responsiveSlider {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	position: relative !important;
+}
+
+/* Note: no margin/width overrides on li here — bxSlider sets marginRight/marginBottom
+   (from your Image Margin setting) and width (from your Image Width setting) via inline
+   style at init time, and those need to stay in control. Only reinforcing the structural
+   properties that make the horizontal layout work in the first place. */
+.et_pb_module .bx-wrapper .bx-viewport li,
+.et-db #et-boc .et-l .bx-wrapper .bx-viewport li {
+	list-style: none !important;
+	float: left !important;
+}
+
+.et_pb_module .bx-wrapper img,
+.et-db #et-boc .et-l .bx-wrapper img {
+	display: block !important;
+	max-width: 100% !important;
+	height: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+.et_pb_module .bx-wrapper .bx-pager,
+.et-db #et-boc .et-l .bx-wrapper .bx-pager {
+	position: absolute !important;
+	bottom: -30px !important;
+	width: 100% !important;
+	text-align: center !important;
+	margin: 0 !important;
+	padding-top: 20px !important;
+}
+
+.et_pb_module .bx-wrapper .bx-pager .bx-pager-item,
+.et-db #et-boc .et-l .bx-wrapper .bx-pager .bx-pager-item {
+	display: inline-block !important;
+	list-style: none !important;
+	margin: 0 !important;
+}
+
+.et_pb_module .bx-wrapper .bx-pager.bx-default-pager a,
+.et-db #et-boc .et-l .bx-wrapper .bx-pager.bx-default-pager a {
+	display: block !important;
+	background: #666 !important;
+	text-indent: -9999px !important;
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 5px !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	margin: 0 5px !important;
+}
+
+.et_pb_module .bx-wrapper .bx-pager.bx-default-pager a.active,
+.et-db #et-boc .et-l .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #000 !important;
+}
+
+/* Arrows are background-image sprites with hidden text (text-indent), not visible
+   text/icon fonts — if any of these get overridden, the arrow becomes an invisible
+   clickable blob instead of visibly disappearing, which is easy to miss while testing. */
+.et_pb_module .bx-wrapper .bx-controls-direction a,
+.et-db #et-boc .et-l .bx-wrapper .bx-controls-direction a {
+	position: absolute !important;
+	top: 50% !important;
+	margin-top: -16px !important;
+	width: 32px !important;
+	height: 32px !important;
+	text-indent: -9999px !important;
+	z-index: 9999 !important;
+	border: none !important;
+	box-shadow: none !important;
+	display: block !important;
+}
+
+.et_pb_module .bx-wrapper .bx-prev,
+.et-db #et-boc .et-l .bx-wrapper .bx-prev {
+	left: 4px !important;
+	background: url(../images/controls.png) no-repeat 0 -32px !important;
+}
+
+.et_pb_module .bx-wrapper .bx-next,
+.et-db #et-boc .et-l .bx-wrapper .bx-next {
+	right: 1px !important;
+	background: url(../images/controls.png) no-repeat -43px -32px !important;
+}
+
+.et_pb_module .bx-wrapper .bx-controls-direction a.disabled,
+.et-db #et-boc .et-l .bx-wrapper .bx-controls-direction a.disabled {
+	display: none !important;
+}
+
+.et_pb_module .bx-wrapper .bx-caption,
+.et-db #et-boc .et-l .bx-wrapper .bx-caption {
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	margin: 0 !important;
+	background: rgba( 80, 80, 80, 0.75 ) !important;
+	border-radius: 0 0 5px 5px !important;
+}
+
+.et_pb_module .bx-wrapper .bx-caption span,
+.et-db #et-boc .et-l .bx-wrapper .bx-caption span {
+	display: block !important;
+	color: #fff !important;
+	font-size: 13px !important;
+	padding: 10px !important;
+	margin: 0 !important;
+}

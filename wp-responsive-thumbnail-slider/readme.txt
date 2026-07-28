@@ -4,8 +4,8 @@ Donate link: https://www.i13websolution.com/product/wordpress-responsive-thumbna
 Tags: responsive slider, thumbnail slider, thumbnail carousel, image slider, gutenberg block
 Requires at least: 3.5
 Tested up to: 7.0
-Version: 1.1.54
-Stable tag: 1.1.54
+Version: 1.1.53
+Stable tag: 1.1.53
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,12 @@ A fast, lightweight responsive thumbnail slider for WordPress — modern animati
 * **Modern** — a lightweight, dependency-free engine (no jQuery required for the slider itself), touch/swipe-friendly, with lazy-loaded images
 * **Legacy** — the original engine, kept for sites that want it exactly as-is
 * Existing sites automatically stay on Legacy after updating, so nothing changes on your live site — new installs default to Modern
+
+
+**WordPress Responsive Thumbnail carousel slider Video**
+
+[youtube https://www.youtube.com/watch?v=SVmoz3p7egs]
+
 
 = Everything you need for a great-looking slider =
 
@@ -90,6 +96,7 @@ Need more than one slider on your site? **[Upgrade to PRO](https://www.i13websol
 7. Pro version Manage images.
 8. Pro version edit slider.
 9. Pro version crop and non crop Front End slider. 
+10. Block Editor support
 
 == License ==
 

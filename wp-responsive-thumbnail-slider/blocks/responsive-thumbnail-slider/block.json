@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wp-responsive-thumbnail-slider/slider",
+	"title": "Responsive Thumbnail Slider",
+	"category": "widgets",
+	"icon": "images-alt2",
+	"description": "Displays your Responsive Thumbnail Slider. Manage images and settings from the Responsive Thumbnail Slider admin menu.",
+	"keywords": [ "slider", "carousel", "thumbnail", "gallery", "responsive" ],
+	"supports": {
+		"html": false,
+		"multiple": true,
+		"customClassName": true
+	},
+	"textdomain": "wp-responsive-thumbnail-slider",
+	"editorScript": "rts-thumbnail-slider-block-editor",
+	"editorStyle": "rts-thumbnail-slider-block-editor-style"
+}
